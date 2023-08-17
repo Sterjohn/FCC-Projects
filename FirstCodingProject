@@ -1,0 +1,133 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>FCC Survey Form Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">MY FIRST CODING PROJECT EVER</h1>
+    <p id="description">Please complete this form in celebration of my first coding project ever!</p>
+<hr>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label for="name" id="name-label">Enter your name: </label>
+        <input id="name" type="text" placeholder="John Doe" required >
+        <hr>
+        <label for="email" id="email-label">Enter your e-mail: </label>
+        <input id="email" type="email" placeholder="email@address.com" required >
+        <hr>
+        <label for="number" id="number-label">Enter your age: </label>
+        <input id="number" type="number" min="5" max="120" placeholder="age" required >
+<hr>
+        <label for="dropdown">Better movie?</label>
+        <select id="dropdown">
+          <option>Select Movie</option>
+          <option>Barbie</option>
+          <option>Oppenheimer</option>
+        </select>
+<hr>
+        <label>Better performance?</label>
+        <input type="radio" name="radio-group" id="margot" value="0">
+        <label for="margot">Margot Robbie</label>
+        <input type="radio" name="radio-group" id="cillian" value="1">
+        <label for="cillian">Cillian Murphy</label>
+<hr>
+        <label>Better director?</label>
+        <input type="checkbox" value="0" id="gg">
+        <label for="gg">Greta Gerwig</label>
+        <input type="checkbox" value="1" id="cn">
+        <label for="cn">Christopher Nolan</label>
+<hr>
+        <textarea>Please enter your reasoning.</textarea>
+        <input id="submit" type="submit">
+<hr>
+
+      </form>
+    </main>
+  </body>
+</hmtl>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: navy;
+  color: yellow;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid yellow;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: yellow;
+  border: 1px solid navy;
+  color: #navy;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: navy;
+  border-color: yellow;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+** end of undefined **
+
