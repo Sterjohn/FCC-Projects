@@ -1,0 +1,30 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main id="main">
+    <h1 id="title">LeBron Raymone James</h1>
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/640px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg">
+        <div id="img-caption">The greatest of all time.</div>
+      </img>
+    </div>
+    <div id="tribute-info">There has been no one better at playing the game of basketball than LeBron James.
+      <a id="tribute-link" href="https://www.google.com/" target="_blank"></a>
+    </div>
+  </main>
+  </main>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {display: block;
+max-width: 100%;}
+
+** end of undefined **
+
